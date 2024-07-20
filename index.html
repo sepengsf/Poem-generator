@@ -7,36 +7,39 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Twittle, twittle little star
-        <br />
-        How, I wonder
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-btn" />
+        </form>
+        <div class="poem">
+          Twittle, twittle little star
+          <br />
+          How, I wonder
+        </div>
+      </main>
 
-    <footer>
-      This project is coded by
-      <a href="https://github.com/sepengsf">Sindisiwe Sepeng</a> is
-      <a href="https://github.com/sepengsf/Poem-generator"
-        >open-sourced on Github</a
-      >
-      and is hosted on
-      <a href="https://cindycweh-poem-generator.netlify.app/">Nelify</a>
-    </footer>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/sepengsf">Sindisiwe Sepeng</a> is
+        <a href="https://github.com/sepengsf/Poem-generator"
+          >open-sourced on Github</a
+        >
+        and is hosted on
+        <a href="https://cindycweh-poem-generator.netlify.app/">Nelify</a>
+      </footer>
+    </div>
 
     <script src="index.js"></script>
   </body>
